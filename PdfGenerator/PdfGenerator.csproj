@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Content Include="Assets\logo.png" />
+    </ItemGroup>
+
+	<ItemGroup>
+		<Folder Include="Assets\images\" />
+		<Folder Include="wwwroot\images" />
+	</ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="IronPdf" Version="2022.11.10347" />
+      <PackageReference Include="PuppeteerSharp" Version="2.0.4" />
+      <PackageReference Include="System.Drawing.Common" Version="5.0.3" />
+      <PackageReference Include="ZXing.Net" Version="0.16.8" />
+    </ItemGroup>
+</Project>
